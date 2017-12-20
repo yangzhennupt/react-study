@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import ClickCounter from './demo1/ClickCounter';
 
 ReactDOM.render(
-    <ClickCounter />,
+    <ClickCounter initValue= {10} />,
     document.getElementById('root')
 );
 registerServiceWorker();
