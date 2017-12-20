@@ -1,5 +1,10 @@
 import  React , {Component} from  'react';
 
+/**
+ * prop 是组件对外定义的接口，state用于记录内部状态
+ * prop赋值在组件外，state在组件内
+ * 组件不应该改变props的值，state存在的意义就是让组件去改变的
+ */
 class ClickCounter extends Component{
     constructor(props){
         super(props);
